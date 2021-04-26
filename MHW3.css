@@ -1,0 +1,147 @@
+#barra_navigazione {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1c1d21;  
+}
+body{
+    background-color: whitesmoke;
+}
+div a {
+    font-size: x-large;
+    color:rgb(253, 147, 1);
+   padding-right:  30px;
+   padding-top: 40px;
+   font-family: 'Dela Gothic One', cursive;
+   text-decoration: underline;
+}
+
+nav div{
+   display: flex;
+   justify-content: flex-end;
+}
+
+#Logo img{
+   height: 100px;
+}
+form {
+    margin-top:2%;
+}
+
+form text{
+    font-family: 'Nunito', sans-serif;
+}
+
+h3{
+    background-color: #1c1d21;
+    text-align: center;
+    padding: 2%;
+    font-family: 'Nunito', sans-serif;
+    color:rgb(253, 147, 1);
+}
+.hidden {
+    display:none;
+}
+button{
+    
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+
+#meteo {
+   padding-bottom: 20%;
+}
+.previsioni {
+    display:flex;
+    flex-direction: column;
+    width: 10%;
+    padding:1%;
+    border: 3px solid rgb(253, 147, 1);
+    border-radius: 5px;
+    margin: 3%;
+}
+#auto_view{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.auto{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    width: max-content;
+    padding-left: 1%;
+    padding-right: 1%;
+
+    justify-content: space-evenly;
+    
+    border:3px solid rgb(253, 147, 1);
+    border-radius: 10px;
+    
+
+}
+
+.testo_auto{
+    padding: 3%;
+    font-family: 'Nunito',  sans-serif;
+    font-style: oblique;
+    color:rgb(25,137,79);
+    font-size: x-large;
+}
+
+
+
+#fine{
+    display:flex;
+    flex-direction: row;
+    background-color: #1c1d21;
+}
+
+#end_part{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
+}
+
+#contatti{
+    font-size: x-large;
+    color:rgb(253, 147, 1);
+    font-family: 'Dela Gothic One', cursive;
+    text-decoration: underline;
+}
+
+#informazioni {
+    display: flex;
+    justify-content: space-around;
+}
+
+#informazioni p {
+    color:rgb(253, 147, 1);
+}
+
+.rigo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.rigo img{
+    height: 35px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#end_part2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    width: 20%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#end_part2 img{
+    width: 50px;
+}
